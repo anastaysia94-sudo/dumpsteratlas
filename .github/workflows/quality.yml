@@ -21,25 +21,38 @@ jobs:
 
       - name: Validate curated resource registry
         run: |
-          jq -e 'length >= 5' data/verified-resources.json >/dev/null
+          jq -e 'length >= 25' data/verified-resources.json >/dev/null
           jq -e 'all(.[]; (.source_url | startswith("https://")) and (.verified_at | length == 10))' data/verified-resources.json >/dev/null
 
-      - name: Verify trust and privacy contracts
+      - name: Verify trust, moderation, privacy and safety contracts
         run: |
           grep -q 'community_unverified' supabase/functions/dumpster-atlas/index.ts
           grep -q 'dumpster_atlas_verified' supabase/functions/dumpster-atlas/index.ts
-          grep -q 'No private dumpsters' supabase/functions/dumpster-atlas/page.ts
-          grep -q 'not individually verified' supabase/functions/dumpster-atlas/page.ts
-          grep -q 'not coordinates or search text' supabase/functions/dumpster-atlas/page.ts
+          grep -q 'moderated_community' supabase/functions/dumpster-atlas/index.ts
+          grep -q 'dumpster_atlas_admin_keys' supabase/functions/dumpster-atlas/index.ts
+          grep -q 'Three trust levels' supabase/functions/dumpster-atlas/page.ts
+          grep -q 'private dumpsters' supabase/functions/dumpster-atlas/page.ts
+          grep -q 'not individually checked' supabase/functions/dumpster-atlas/page.ts
+          grep -q 'precise geolocation' supabase/functions/dumpster-atlas/page.ts
+          grep -q 'Search text is not logged' supabase/functions/dumpster-atlas/page.ts
 
-      - name: Verify live app
+      - name: Verify live v1 app
         run: |
           curl --fail --silent --show-error --location \
             https://nqcshihyfhthywpseilx.supabase.co/functions/v1/dumpster-atlas \
-            | grep -q 'Two trust levels'
+            | grep -q 'Dumpster Atlas v1.0'
+          curl --fail --silent --show-error \
+            'https://nqcshihyfhthywpseilx.supabase.co/functions/v1/dumpster-atlas?api=health' \
+            | jq -e '.ok == true and .version == "1.0.0"' >/dev/null
 
-      - name: Verify live curated resource API
+      - name: Verify live data APIs
         run: |
           curl --fail --silent --show-error \
             'https://nqcshihyfhthywpseilx.supabase.co/functions/v1/dumpster-atlas?api=resources' \
-            | jq -e '.resources | length >= 5' >/dev/null
+            | jq -e '.resources | length >= 25' >/dev/null
+          curl --fail --silent --show-error \
+            'https://nqcshihyfhthywpseilx.supabase.co/functions/v1/dumpster-atlas?api=stats' \
+            | jq -e '.verified >= 25' >/dev/null
+          curl --fail --silent --show-error \
+            'https://nqcshihyfhthywpseilx.supabase.co/functions/v1/dumpster-atlas?asset=manifest' \
+            | jq -e '.name == "Dumpster Atlas"' >/dev/null
