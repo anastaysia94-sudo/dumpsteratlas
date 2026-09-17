@@ -1,0 +1,72 @@
+[
+  {
+    "id": "ranch-town",
+    "name": "Ranch Town Recycling Center",
+    "category": "recycling",
+    "tags": ["cans", "bottles", "crv", "metal", "recycling"],
+    "address": "775 Lincoln Ave, San Jose, CA 95126",
+    "city": "San Jose",
+    "latitude": 37.31554,
+    "longitude": -121.90698,
+    "description": "CRV beverage-container redemption plus non-ferrous metal recycling.",
+    "access_note": "Public recycling/buyback location. Confirm current accepted materials and pricing before travel.",
+    "source_url": "https://www.ranchtownrecycling.com/contact-us",
+    "verified_at": "2026-09-16"
+  },
+  {
+    "id": "danny-recycling",
+    "name": "Danny's Recycling",
+    "category": "recycling",
+    "tags": ["cans", "bottles", "crv", "cardboard", "metal", "recycling"],
+    "address": "1745 Walsh Ave, Santa Clara, CA 95050",
+    "city": "Santa Clara",
+    "latitude": 37.3702039,
+    "longitude": -121.9578875,
+    "description": "Residential drop-off for CRV containers, cardboard and scrap metal.",
+    "access_note": "Public recycling location. Confirm current hours and material rules before travel.",
+    "source_url": "https://recyclestuff.org/company/danny-recycling-95050",
+    "verified_at": "2026-09-16"
+  },
+  {
+    "id": "lighthouse-food",
+    "name": "Lighthouse Food Rescue & Distribution",
+    "category": "food",
+    "tags": ["food", "groceries", "free-food", "community"],
+    "address": "309 N 17th St, San Jose, CA 95112",
+    "city": "San Jose",
+    "latitude": 37.34829,
+    "longitude": -121.877914,
+    "description": "Free farmer's-market-style food distribution with changing daily selection.",
+    "access_note": "Public community food resource. Hours and food availability can change; check the source before travel.",
+    "source_url": "https://www.lfoodrescue.org/contact",
+    "verified_at": "2026-09-16"
+  },
+  {
+    "id": "second-harvest-curtner",
+    "name": "Second Harvest of Silicon Valley — Curtner Center",
+    "category": "food",
+    "tags": ["food", "food-assistance", "donations", "community"],
+    "address": "750 Curtner Ave, San Jose, CA 95125",
+    "city": "San Jose",
+    "latitude": 37.29168,
+    "longitude": -121.87721,
+    "description": "Regional hunger-relief organization and food-assistance resource hub.",
+    "access_note": "Use Second Harvest's current food-finder/contact guidance for recipient services; this location also supports operations and donations.",
+    "source_url": "https://www.shfb.org/about-us/contact-us/",
+    "verified_at": "2026-09-16"
+  },
+  {
+    "id": "habitat-restore",
+    "name": "Habitat for Humanity ReStore San Jose",
+    "category": "reuse",
+    "tags": ["reuse", "furniture", "building-materials", "appliances", "useful-materials", "clothing"],
+    "address": "1608 Las Plumas Ave, San Jose, CA 95133",
+    "city": "San Jose",
+    "latitude": 37.35986,
+    "longitude": -121.86782,
+    "description": "Nonprofit reuse store and donation center for furniture, building materials, appliances and other usable goods.",
+    "access_note": "Public retail/donation resource. Confirm donation acceptance before bringing large or unusual items.",
+    "source_url": "https://www.habitat.org/restores",
+    "verified_at": "2026-09-16"
+  }
+]
