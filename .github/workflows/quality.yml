@@ -1,0 +1,45 @@
+name: Dumpster Atlas Quality
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  source-data-and-live-smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+
+      - name: Type-check Edge Function
+        run: deno check supabase/functions/dumpster-atlas/index.ts
+
+      - name: Validate curated resource registry
+        run: |
+          jq -e 'length >= 5' data/verified-resources.json >/dev/null
+          jq -e 'all(.[]; (.source_url | startswith("https://")) and (.verified_at | length == 10))' data/verified-resources.json >/dev/null
+
+      - name: Verify trust and privacy contracts
+        run: |
+          grep -q 'community_unverified' supabase/functions/dumpster-atlas/index.ts
+          grep -q 'dumpster_atlas_verified' supabase/functions/dumpster-atlas/index.ts
+          grep -q 'No private dumpsters' supabase/functions/dumpster-atlas/page.ts
+          grep -q 'not individually verified' supabase/functions/dumpster-atlas/page.ts
+          grep -q 'not coordinates or search text' supabase/functions/dumpster-atlas/page.ts
+
+      - name: Verify live app
+        run: |
+          curl --fail --silent --show-error --location \
+            https://nqcshihyfhthywpseilx.supabase.co/functions/v1/dumpster-atlas \
+            | grep -q 'Two trust levels'
+
+      - name: Verify live curated resource API
+        run: |
+          curl --fail --silent --show-error \
+            'https://nqcshihyfhthywpseilx.supabase.co/functions/v1/dumpster-atlas?api=resources' \
+            | jq -e '.resources | length >= 5' >/dev/null
