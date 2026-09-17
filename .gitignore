@@ -1,0 +1,13 @@
+# Supabase local state
+.supabase/
+
+# JS/Deno/editor scratch
+node_modules/
+.DS_Store
+.vscode/
+
+# Local data exports / secrets
+.env
+.env.*
+!*.example
+*.local.json
