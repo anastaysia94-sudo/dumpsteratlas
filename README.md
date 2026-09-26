@@ -58,3 +58,13 @@ supabase functions deploy dumpster-atlas --project-ref nqcshihyfhthywpseilx --no
 ```
 
 The endpoint is intentionally public. The service-role database key remains server-side and is never shipped to the browser.
+
+## Static frontend build
+
+Supabase's shared Edge Function domain serves HTML as plain text with a sandboxed content security policy. Build a standalone frontend with `node scripts/build-static.mjs`; this writes `docs/index.html` for a separate static host. The app then uses the existing Edge Function API for resources, community data and interaction events. The API currently advertises `Access-Control-Allow-Origin: *`. Publishing from GitHub Pages requires enabling Pages for this repository and deploying the `docs/` folder on `main`; a working public frontend URL is not claimed until that step completes. See `docs/FEATURE_RECOVERY.md` for the archived feature status.
+
+## Dumpster Atlas UI and feature prioritization
+
+The visual source of truth is the recovered Dumpster Atlas mockup (compass, San José skyline, gold and teal interface) plus the broader SmartPickShop black-and-gold visual motif. A small SVG skyline in `docs/atlas-skyline.svg` and an inline compass logo deliver those details without a large image download. `docs/TOP_250_PRODUCT_ROADMAP.csv` is a new proposed prioritization, not a recovered historical inventory or a claim of 250 delivered features. The pickup permission gate currently downloads a request draft only; it neither publishes pickup inventory nor confirms business consent.
+
+The illustrated hero is `docs/dumpster-atlas-neon-san-jose.webp` (about 196 KB). It depicts the project's San José compass and recycling workshop, rather than relying on borders and gradients alone. Keep this asset beside the generated `docs/index.html` when deploying the static frontend.
