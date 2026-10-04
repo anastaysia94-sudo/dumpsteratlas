@@ -1,0 +1,251 @@
+rank,theme,feature,status,value rationale
+1,Verified discovery,Search public resource name,implemented in local branch,collector reach and earnings
+2,Verified discovery,Search street or neighborhood,implemented in local branch,collector reach and earnings
+3,Verified discovery,Filter cans and bottles,implemented in local branch,collector reach and earnings
+4,Verified discovery,Filter food assistance,implemented in local branch,collector reach and earnings
+5,Verified discovery,Filter clothing and reuse,implemented in local branch,collector reach and earnings
+6,Verified discovery,Filter electronics,implemented in local branch,collector reach and earnings
+7,Verified discovery,Filter useful materials,implemented in local branch,collector reach and earnings
+8,Verified discovery,Display verification date,implemented in local branch,collector reach and earnings
+9,Verified discovery,Link directly to original source,implemented in local branch,collector reach and earnings
+10,Verified discovery,Distinguish community OSM pins,implemented in local branch,collector reach and earnings
+11,Trip geography,Choose 2 mile radius,implemented in local branch,collector reach and earnings
+12,Trip geography,Choose 5 mile radius,implemented in local branch,collector reach and earnings
+13,Trip geography,Choose 10 mile radius,implemented in local branch,collector reach and earnings
+14,Trip geography,Choose 15 mile radius,implemented in local branch,collector reach and earnings
+15,Trip geography,Choose 20 mile radius,implemented in local branch,collector reach and earnings
+16,Trip geography,Use optional device location,implemented in local branch,collector reach and earnings
+17,Trip geography,Compute on-device distance,implemented in local branch,collector reach and earnings
+18,Trip geography,Open walking directions,implemented in local branch,collector reach and earnings
+19,Trip geography,Save a source-checked stop,implemented in local branch,collector reach and earnings
+20,Trip geography,Remove a saved stop,implemented in local branch,collector reach and earnings
+21,Collector receipts,Record payout amount,implemented in local branch,collector reach and earnings
+22,Collector receipts,Record travel expense,implemented in local branch,collector reach and earnings
+23,Collector receipts,Record minutes worked,implemented in local branch,collector reach and earnings
+24,Collector receipts,Compute net per trip,implemented in local branch,collector reach and earnings
+25,Collector receipts,Compute net hourly rate,implemented in local branch,collector reach and earnings
+26,Collector receipts,Export trip receipts CSV,implemented in local branch,collector reach and earnings
+27,Collector receipts,Display total recorded net,implemented in local branch,collector reach and earnings
+28,Collector receipts,Estimate eligible small-container CRV,implemented in local branch,collector reach and earnings
+29,Collector receipts,Estimate eligible large-container CRV,implemented in local branch,collector reach and earnings
+30,Collector receipts,Keep trip receipts on device,implemented in local branch,collector reach and earnings
+31,Pickup permission,Download business request draft,implemented in local branch,collector reach and earnings
+32,Pickup permission,Require named business in request,implemented in local branch,collector reach and earnings
+33,Pickup permission,Specify material in request,implemented in local branch,collector reach and earnings
+34,Pickup permission,Specify proposed handoff terms,implemented in local branch,collector reach and earnings
+35,Pickup permission,Record written consent evidence,candidate — not implemented,collector reach and earnings
+36,Pickup permission,Set authorized access boundary,candidate — not implemented,collector reach and earnings
+37,Pickup permission,Record business contact person,candidate — not implemented,collector reach and earnings
+38,Pickup permission,Set pickup time window,candidate — not implemented,collector reach and earnings
+39,Pickup permission,Require permission expiry date,candidate — not implemented,collector reach and earnings
+40,Pickup permission,Reconfirm repeat pickups,candidate — not implemented,collector reach and earnings
+41,Pilot measurement,Measure collector earnings per trip,candidate — not implemented,permission and repeat-business revenue
+42,Pilot measurement,Measure transport cost per trip,candidate — not implemented,permission and repeat-business revenue
+43,Pilot measurement,Measure minutes per trip,candidate — not implemented,permission and repeat-business revenue
+44,Pilot measurement,Measure net hourly value,candidate — not implemented,permission and repeat-business revenue
+45,Pilot measurement,Count repeat pickups per business,candidate — not implemented,permission and repeat-business revenue
+46,Pilot measurement,Record business payment per pickup,candidate — not implemented,permission and repeat-business revenue
+47,Pilot measurement,Compare first versus repeat payout,candidate — not implemented,permission and repeat-business revenue
+48,Pilot measurement,Measure no-show rate,candidate — not implemented,permission and repeat-business revenue
+49,Pilot measurement,Measure refused-material rate,candidate — not implemented,permission and repeat-business revenue
+50,Pilot measurement,Measure collector retention,candidate — not implemented,permission and repeat-business revenue
+51,Business pricing,Offer paid recurring pickup plan,candidate — not implemented,permission and repeat-business revenue
+52,Business pricing,Quote weekly pickup tier,candidate — not implemented,permission and repeat-business revenue
+53,Business pricing,Quote on-demand pickup tier,candidate — not implemented,permission and repeat-business revenue
+54,Business pricing,Set minimum pickup volume,candidate — not implemented,permission and repeat-business revenue
+55,Business pricing,Estimate business disposal savings,candidate — not implemented,permission and repeat-business revenue
+56,Business pricing,Invoice only completed pickups,candidate — not implemented,permission and repeat-business revenue
+57,Business pricing,Set collector guaranteed floor,candidate — not implemented,permission and repeat-business revenue
+58,Business pricing,Separate platform fee from collector pay,candidate — not implemented,permission and repeat-business revenue
+59,Business pricing,Calculate payout before accepting,candidate — not implemented,permission and repeat-business revenue
+60,Business pricing,Show cancellation terms,candidate — not implemented,permission and repeat-business revenue
+61,Supply intake,Record bagged CRV container count,candidate — not implemented,permission and repeat-business revenue
+62,Supply intake,Record accepted material types,candidate — not implemented,permission and repeat-business revenue
+63,Supply intake,Record estimated material weight,candidate — not implemented,permission and repeat-business revenue
+64,Supply intake,Record safe loading point,candidate — not implemented,permission and repeat-business revenue
+65,Supply intake,Require sealed-container instructions,candidate — not implemented,permission and repeat-business revenue
+66,Supply intake,Flag contamination before pickup,candidate — not implemented,permission and repeat-business revenue
+67,Supply intake,Record oversized-item dimensions,candidate — not implemented,permission and repeat-business revenue
+68,Supply intake,Record stairs or access restrictions,candidate — not implemented,permission and repeat-business revenue
+69,Supply intake,Record equipment required,candidate — not implemented,permission and repeat-business revenue
+70,Supply intake,Confirm legal ownership of material,candidate — not implemented,permission and repeat-business revenue
+71,Collector accessibility,Offer low-data list mode,candidate — not implemented,permission and repeat-business revenue
+72,Collector accessibility,Support large touch targets,candidate — not implemented,permission and repeat-business revenue
+73,Collector accessibility,Support screen-reader labels,implemented in local branch,permission and repeat-business revenue
+74,Collector accessibility,Support high contrast,candidate — not implemented,permission and repeat-business revenue
+75,Collector accessibility,Support reduced motion,implemented in local branch,permission and repeat-business revenue
+76,Collector accessibility,Support multilingual labels,candidate — not implemented,permission and repeat-business revenue
+77,Collector accessibility,Support offline saved stops,candidate — not implemented,permission and repeat-business revenue
+78,Collector accessibility,Permit no-account map browsing,implemented in local branch,permission and repeat-business revenue
+79,Collector accessibility,Allow anonymous trip tracking,implemented in local branch,permission and repeat-business revenue
+80,Collector accessibility,Avoid benefits eligibility gate,implemented in local branch,permission and repeat-business revenue
+81,Safety and trust,Block private dumpster listings,implemented in local branch,safety and retention
+82,Safety and trust,Warn about restricted property,implemented in local branch,safety and retention
+83,Safety and trust,Separate verified and OSM data,implemented in local branch,safety and retention
+84,Safety and trust,Show source and last check,implemented in local branch,safety and retention
+85,Safety and trust,Report unsafe access terms,candidate — not implemented,safety and retention
+86,Safety and trust,Report incorrect location,candidate — not implemented,safety and retention
+87,Safety and trust,Report harassment,candidate — not implemented,safety and retention
+88,Safety and trust,Provide emergency exit guidance,candidate — not implemented,safety and retention
+89,Safety and trust,Do not show collector live location,implemented in local branch,safety and retention
+90,Safety and trust,Delete personal data on request,candidate — not implemented,safety and retention
+91,Resource reliability,Verify business address,candidate — not implemented,safety and retention
+92,Resource reliability,Verify redemption status,candidate — not implemented,safety and retention
+93,Resource reliability,Verify accepted material,candidate — not implemented,safety and retention
+94,Resource reliability,Verify current opening hours,candidate — not implemented,safety and retention
+95,Resource reliability,Track source check date,candidate — not implemented,safety and retention
+96,Resource reliability,Set record expiration reminder,candidate — not implemented,safety and retention
+97,Resource reliability,Flag broken source URL,candidate — not implemented,safety and retention
+98,Resource reliability,Log verification method,candidate — not implemented,safety and retention
+99,Resource reliability,Review outdated records,candidate — not implemented,safety and retention
+100,Resource reliability,Retire closed location,candidate — not implemented,safety and retention
+101,Routing upgrades,Choose walking travel mode,candidate — not implemented,safety and retention
+102,Routing upgrades,Choose cycling travel mode,candidate — not implemented,safety and retention
+103,Routing upgrades,Choose transit travel mode,candidate — not implemented,safety and retention
+104,Routing upgrades,Choose driving travel mode,candidate — not implemented,safety and retention
+105,Routing upgrades,Estimate route distance,candidate — not implemented,safety and retention
+106,Routing upgrades,Estimate route time,candidate — not implemented,safety and retention
+107,Routing upgrades,Order saved stops manually,implemented in local branch,safety and retention
+108,Routing upgrades,Optimize stop order with opening hours,candidate — not implemented,safety and retention
+109,Routing upgrades,Avoid unsafe crossings,candidate — not implemented,safety and retention
+110,Routing upgrades,Show return-to-center route,candidate — not implemented,safety and retention
+111,Earnings intelligence,Estimate payout by material,candidate — not implemented,safety and retention
+112,Earnings intelligence,Show actual versus estimated payout,candidate — not implemented,safety and retention
+113,Earnings intelligence,Show expense share of gross,candidate — not implemented,safety and retention
+114,Earnings intelligence,Show payout per mile,candidate — not implemented,safety and retention
+115,Earnings intelligence,Show payout per minute,candidate — not implemented,safety and retention
+116,Earnings intelligence,Show weekly net trends,candidate — not implemented,safety and retention
+117,Earnings intelligence,Show best paid center from own receipts,candidate — not implemented,safety and retention
+118,Earnings intelligence,Show payout variability,candidate — not implemented,safety and retention
+119,Earnings intelligence,Explain price uncertainty,candidate — not implemented,safety and retention
+120,Earnings intelligence,Warn when estimated net is negative,candidate — not implemented,safety and retention
+121,Recycling guidance,Explain California CRV symbols,candidate — not implemented,safety and retention
+122,Recycling guidance,Explain container size thresholds,candidate — not implemented,safety and retention
+123,Recycling guidance,Explain non-eligible containers,candidate — not implemented,safety and retention
+124,Recycling guidance,Explain material sorting,candidate — not implemented,safety and retention
+125,Recycling guidance,Explain redemption by count rules,candidate — not implemented,safety and retention
+126,Recycling guidance,Explain redemption by weight rules,candidate — not implemented,safety and retention
+127,Recycling guidance,Explain daily payout limits,candidate — not implemented,safety and retention
+128,Recycling guidance,Explain center identity requirements if applicable,candidate — not implemented,safety and retention
+129,Recycling guidance,Explain contaminated-material refusal,candidate — not implemented,safety and retention
+130,Recycling guidance,Provide source-linked current rules,candidate — not implemented,safety and retention
+131,Food and reuse,Distinguish meal service from donation site,candidate — not implemented,safety and retention
+132,Food and reuse,Show public food distribution requirements,candidate — not implemented,safety and retention
+133,Food and reuse,Show recipient service hours,candidate — not implemented,safety and retention
+134,Food and reuse,Show clothing assistance sites,candidate — not implemented,safety and retention
+135,Food and reuse,Show reusable-item dropoff rules,candidate — not implemented,safety and retention
+136,Food and reuse,Mark no-purchase resources,candidate — not implemented,safety and retention
+137,Food and reuse,Mark appointment-only services,candidate — not implemented,safety and retention
+138,Food and reuse,Show phone alternatives to online access,candidate — not implemented,safety and retention
+139,Food and reuse,Avoid revealing sensitive client locations,candidate — not implemented,safety and retention
+140,Food and reuse,Link directly to service operators,candidate — not implemented,safety and retention
+141,Language and inclusion,Translate onboarding into Spanish,candidate — not implemented,safety and retention
+142,Language and inclusion,Translate onboarding into Vietnamese,candidate — not implemented,safety and retention
+143,Language and inclusion,Translate onboarding into Chinese,candidate — not implemented,safety and retention
+144,Language and inclusion,Translate onboarding into Tagalog,candidate — not implemented,safety and retention
+145,Language and inclusion,Translate onboarding into Khmer,candidate — not implemented,safety and retention
+146,Language and inclusion,Translate safety notices,candidate — not implemented,safety and retention
+147,Language and inclusion,Translate material names,candidate — not implemented,safety and retention
+148,Language and inclusion,Offer icon-supported directions,candidate — not implemented,safety and retention
+149,Language and inclusion,Provide plain-language pricing,candidate — not implemented,safety and retention
+150,Language and inclusion,Avoid collecting immigration status,candidate — not implemented,safety and retention
+151,Business workspace,Create private pickup drafts,candidate — not implemented,operations and expansion
+152,Business workspace,Invite authorized business manager,candidate — not implemented,operations and expansion
+153,Business workspace,Approve a pickup request,candidate — not implemented,operations and expansion
+154,Business workspace,Revoke pickup permission,candidate — not implemented,operations and expansion
+155,Business workspace,Upload access instructions,candidate — not implemented,operations and expansion
+156,Business workspace,Confirm material ownership,candidate — not implemented,operations and expansion
+157,Business workspace,Set recurring schedule,candidate — not implemented,operations and expansion
+158,Business workspace,Pause a recurring pickup,candidate — not implemented,operations and expansion
+159,Business workspace,Review pickup receipt,candidate — not implemented,operations and expansion
+160,Business workspace,Download business invoices,candidate — not implemented,operations and expansion
+161,Collector workspace,Browse approved paid pickups,candidate — not implemented,operations and expansion
+162,Collector workspace,View pickup payment before claim,candidate — not implemented,operations and expansion
+163,Collector workspace,Accept an available pickup,candidate — not implemented,operations and expansion
+164,Collector workspace,Decline without penalty,candidate — not implemented,operations and expansion
+165,Collector workspace,Confirm arrival privately,candidate — not implemented,operations and expansion
+166,Collector workspace,Mark pickup complete,candidate — not implemented,operations and expansion
+167,Collector workspace,Submit material receipt,candidate — not implemented,operations and expansion
+168,Collector workspace,Dispute a payout,candidate — not implemented,operations and expansion
+169,Collector workspace,Set maximum travel radius,candidate — not implemented,operations and expansion
+170,Collector workspace,Choose payment method voluntarily,candidate — not implemented,operations and expansion
+171,Moderation workspace,Review proposed resource pins,candidate — not implemented,operations and expansion
+172,Moderation workspace,Verify submitted business contact,candidate — not implemented,operations and expansion
+173,Moderation workspace,Inspect consent evidence,candidate — not implemented,operations and expansion
+174,Moderation workspace,Hide expired pickups,candidate — not implemented,operations and expansion
+175,Moderation workspace,Investigate safety report,candidate — not implemented,operations and expansion
+176,Moderation workspace,Suspend fraudulent listings,candidate — not implemented,operations and expansion
+177,Moderation workspace,Resolve payout dispute,candidate — not implemented,operations and expansion
+178,Moderation workspace,Audit moderator actions,candidate — not implemented,operations and expansion
+179,Moderation workspace,Prevent self-approval of business claims,candidate — not implemented,operations and expansion
+180,Moderation workspace,Appeal erroneous removal,candidate — not implemented,operations and expansion
+181,Fraud resistance,Detect duplicate pickups,candidate — not implemented,operations and expansion
+182,Fraud resistance,Detect duplicate business claims,candidate — not implemented,operations and expansion
+183,Fraud resistance,Limit repeated false reports,candidate — not implemented,operations and expansion
+184,Fraud resistance,Verify consent issuer,candidate — not implemented,operations and expansion
+185,Fraud resistance,Time-stamp consent changes,candidate — not implemented,operations and expansion
+186,Fraud resistance,Block payout after canceled pickup,candidate — not implemented,operations and expansion
+187,Fraud resistance,Detect implausible container quantities,candidate — not implemented,operations and expansion
+188,Fraud resistance,Require completion proof proportionate to risk,candidate — not implemented,operations and expansion
+189,Fraud resistance,Prevent location spoof incentives,candidate — not implemented,operations and expansion
+190,Fraud resistance,Offer fair human appeal,candidate — not implemented,operations and expansion
+191,Mutual aid,List public assistance resources,candidate — not implemented,operations and expansion
+192,Mutual aid,List nearby public water resources,candidate — not implemented,operations and expansion
+193,Mutual aid,List public restrooms where verified,candidate — not implemented,operations and expansion
+194,Mutual aid,List public cooling centers where verified,candidate — not implemented,operations and expansion
+195,Mutual aid,List repair help services,candidate — not implemented,operations and expansion
+196,Mutual aid,Offer community material donations,candidate — not implemented,operations and expansion
+197,Mutual aid,Coordinate voluntary shared trips,candidate — not implemented,operations and expansion
+198,Mutual aid,Avoid publishing vulnerable people's locations,candidate — not implemented,operations and expansion
+199,Mutual aid,Let helpers fund pickup supplies,candidate — not implemented,operations and expansion
+200,Mutual aid,Show transparent aid distribution,candidate — not implemented,operations and expansion
+201,Community knowledge,Submit corrected center details,candidate — not implemented,operations and expansion
+202,Community knowledge,Submit accepted-material updates,candidate — not implemented,operations and expansion
+203,Community knowledge,Submit accessibility updates,candidate — not implemented,operations and expansion
+204,Community knowledge,Submit closure reports,candidate — not implemented,operations and expansion
+205,Community knowledge,Moderate public tips,candidate — not implemented,operations and expansion
+206,Community knowledge,Show contributor provenance,candidate — not implemented,operations and expansion
+207,Community knowledge,Prevent unsafe private-location tips,candidate — not implemented,operations and expansion
+208,Community knowledge,Let users flag stale tips,candidate — not implemented,operations and expansion
+209,Community knowledge,Archive superseded advice,candidate — not implemented,operations and expansion
+210,Community knowledge,Separate community claim from verification,candidate — not implemented,operations and expansion
+211,Education and growth,Publish collector safety basics,candidate — not implemented,operations and expansion
+212,Education and growth,Publish contamination guide,candidate — not implemented,operations and expansion
+213,Education and growth,Teach receipt calculation,candidate — not implemented,operations and expansion
+214,Education and growth,Teach pricing negotiation,candidate — not implemented,operations and expansion
+215,Education and growth,Teach route cost estimation,candidate — not implemented,operations and expansion
+216,Education and growth,Offer business outreach template,implemented in local branch,operations and expansion
+217,Education and growth,Offer multilingual onboarding,candidate — not implemented,operations and expansion
+218,Education and growth,Show permission checklist,candidate — not implemented,operations and expansion
+219,Education and growth,Explain taxes with current source links,candidate — not implemented,operations and expansion
+220,Education and growth,Teach record export,candidate — not implemented,operations and expansion
+221,Analytics and experiments,Track map-to-directions conversion,candidate — not implemented,operations and expansion
+222,Analytics and experiments,Track pickup draft downloads,candidate — not implemented,operations and expansion
+223,Analytics and experiments,Track business approval rate,candidate — not implemented,operations and expansion
+224,Analytics and experiments,Track completed pickup rate,candidate — not implemented,operations and expansion
+225,Analytics and experiments,Track collector net per active day,candidate — not implemented,operations and expansion
+226,Analytics and experiments,Track repeat business conversion,candidate — not implemented,operations and expansion
+227,Analytics and experiments,Track center source freshness,candidate — not implemented,operations and expansion
+228,Analytics and experiments,Track accessibility usage without identity,candidate — not implemented,operations and expansion
+229,Analytics and experiments,A/B test pricing with consent,candidate — not implemented,operations and expansion
+230,Analytics and experiments,Measure business churn,candidate — not implemented,operations and expansion
+231,Platform resilience,Cache minimal app shell,candidate — not implemented,operations and expansion
+232,Platform resilience,Cache resource list with timestamp,candidate — not implemented,operations and expansion
+233,Platform resilience,Show offline status,candidate — not implemented,operations and expansion
+234,Platform resilience,Retry failed API requests,candidate — not implemented,operations and expansion
+235,Platform resilience,Compress vector brand assets,implemented in local branch,operations and expansion
+236,Platform resilience,Lazy-load map only when visible,candidate — not implemented,operations and expansion
+237,Platform resilience,Defer optional community layer,implemented in local branch,operations and expansion
+238,Platform resilience,Limit third-party script payload,candidate — not implemented,operations and expansion
+239,Platform resilience,Monitor frontend load time,candidate — not implemented,operations and expansion
+240,Platform resilience,Recover from local storage failures,candidate — not implemented,operations and expansion
+241,Governance and economics,Publish collector payout policy,candidate — not implemented,operations and expansion
+242,Governance and economics,Publish business pricing schedule,candidate — not implemented,operations and expansion
+243,Governance and economics,Explain platform fee,candidate — not implemented,operations and expansion
+244,Governance and economics,Report collector share of revenue,candidate — not implemented,operations and expansion
+245,Governance and economics,Allow cooperative advisory votes,candidate — not implemented,operations and expansion
+246,Governance and economics,Prevent exploitative pickup bids,candidate — not implemented,operations and expansion
+247,Governance and economics,Document dispute turnaround,candidate — not implemented,operations and expansion
+248,Governance and economics,Publish moderation transparency metrics,candidate — not implemented,operations and expansion
+249,Governance and economics,Review environmental claims,candidate — not implemented,operations and expansion
+250,Governance and economics,Audit program impact annually,candidate — not implemented,operations and expansion
