@@ -21,7 +21,7 @@ That distinction is part of the product, not decorative copy.
 - Search and category filters.
 - 2 / 5 / 10 / 15 / 20 mile radius options.
 - Optional browser geolocation for on-device distance calculations.
-- Five seeded, source-checked public resources.
+- 25 curated resource records currently present in `data/verified-resources.json`, all dated `verified_at: 2026-09-16`. Their original-source links, current availability, and the number actually deployed in production still require fresh independent verification. Do not treat a repo count as a verified live API count.
 - Optional live OpenStreetMap recycling layer.
 - Directions and original-source links.
 - Privacy-light analytics that does **not** record GPS coordinates or search text.
