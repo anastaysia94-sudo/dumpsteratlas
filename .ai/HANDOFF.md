@@ -1,3 +1,9 @@
+# Current handoff — 2026-10-13 (ChatGPT — anastaysia94)
+
+Read `docs/P041_EXECUTION_HANDOFF_2026-10-13.md`, current `.ai/STATE.md`, `README.md`, and the P041 Drive Device QA tab. The former 2026-09-26 handoff below refers to a local feature branch that has since merged as PR #3; do not repeat the obsolete 'push requires credentials' blocker. The Fieldbook Site is **separate** from this GitHub/Supabase map project. Both public-host browser and phone acceptance remain open. Do not claim a deployment or successful editing/backup/offline operation without measured evidence.
+
+## Historical handoff retained verbatim below
+
 # Handoff
 
 ```
